@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Pricing | Family Nest Care</title><link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@500;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body data-page="pricing.html"><div id="nav"></div>
+<header class="banner"><div class="wrap"><h1>Simple, fair pricing</h1><p>No hidden fees. Your first visit and a trial day are free.</p></div></header>
+<section style="padding-top:56px"><div class="wrap">
+ <div class="toggle"><span>Monthly</span><button class="sw" id="sw" aria-pressed="false" aria-label="Switch to yearly billing"></button><span>Yearly <b style="color:var(--pink)">save 20%</b></span></div>
+ <div class="grid" id="pg" style="padding-top:12px"></div>
+</div></section>
+<section class="alt"><div class="wrap"><h2>Estimate your cost</h2><p class="sub">A simple guide. We confirm the final price after a free visit.</p>
+ <div class="est" style="background:var(--bg);margin-top:24px"><div>
+  <label for="ct">Type of care</label><select id="ct"><option value="k">Childcare</option><option value="e">Elderly care</option><option value="b">Both (family discount)</option></select>
+  <p><label for="hr">Hours per week: <b id="hv">20</b></label><input type="range" id="hr" min="5" max="60" value="20"></p></div>
+  <div class="res"><span>Estimated per month</span><b id="pr">₹0</b><small id="pn"></small></div></div>
+</div></section>
+<div id="foot"></div><button id="top" aria-label="Back to top">↑</button><script src="script.js"></script></body></html>
